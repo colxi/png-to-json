@@ -23,7 +23,7 @@ Usage example (Node):
 ### Async modes (only browser) :
 
 ``` javascript
-pngToJSON( HTMLInputElement, calback );
+pngToJSON( HTMLInputElement, callback );
 ```
 
 - **`HTMLInputElement`**: Reference to the DOM File Input Element
@@ -31,10 +31,10 @@ pngToJSON( HTMLInputElement, calback );
 
 
 ``` javascript
-pngToJSON( FileReference, calback )
+pngToJSON( FileReference, callback )
 ```
 
-- **`FileReference`**: Reference to the file returned from the File Input Element
+- **`FileReference`**: Reference to the file returned from the File Input Element ( InputElement.files[x] )
 - **`callback`**: Function to receive the results of the conversion. It accepts two arguments : `JSON PNG Object` and `Source File Info`.
 
 
@@ -113,6 +113,11 @@ If you are in the NodeJs enviroment, can install the package via:
 
 ```
 $ npm install png-to-json --save
+```
+
+Git repository available too :
+```
+$ git clone https://github.com/colxi/png-to-json.git
 ```
 
 The package can be imported using ES6 `import`  in Browser
