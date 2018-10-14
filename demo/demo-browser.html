@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PNG to JSON demo</title>
+    <script src="./../src/png-to-json.js"></script>
+</head>
+<body>
+    <input type="file" id="input">
+    <script type="text/javascript">
+        // File Input source (async)
+        // (For sync mode, and other sources check documentation)
+        const input = document.getElementById('input');
+        pngToJSON( input, json => console.log( json ) );
+    </script>
+</body>
+</html>
