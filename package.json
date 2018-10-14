@@ -1,7 +1,7 @@
 {
     "name": "png-to-json",
     "description": "Parse PNG files into JSON human readable structures",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "main": "./src/png-to-json.js",
     "keywords": [
         "png",
